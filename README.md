@@ -35,8 +35,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # 3. 토큰 설정 (택 1)
-#   방법 A: .env.example 을 .env 로 복사한 뒤 HF_TOKEN 입력
-copy .env.example .env
+#   방법 A: .env 파일을 만들고 HF_TOKEN을 입력.
 #   방법 B: .env 없이 실행하면 터미널에서 토큰을 입력받습니다. (입력은 화면에 보이지 않음)
 
 # 4. 실행
