@@ -21,10 +21,6 @@
 └── README.md
 ```
 
-## 사전 준비: Hugging Face 토큰
-1. huggingface.co → Settings → Access Tokens에서 토큰을 만듭니다.
-2. Fine-grained 토큰이라면 **"Make calls to Inference Providers"** 권한을 체크해야 합니다. (없으면 403 오류가 납니다.)
-
 ## 실행 방법
 ```bash
 # 1. 가상환경 (선택)
